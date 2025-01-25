@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decentralized Chat</title>
+</head>
+<body>
+    <h1>Chat dApp</h1>
+    <label>Receiver Address:</label>
+    <input type="text" id="receiver" placeholder="0x123..." />
+    <label>Message:</label>
+    <input type="text" id="message" placeholder="Type your message..." />
+    <button onclick="sendMessage()">Send</button>
+
+    <h2>Your Messages</h2>
+    <div id="messages"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
