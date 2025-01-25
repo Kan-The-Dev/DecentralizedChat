@@ -1,0 +1,15 @@
+{
+  "name": "decentralized-chat",
+  "version": "1.0.0",
+  "description": "A decentralized private messaging app using Solidity and MetaMask.",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.17.3"
+  }
+}
